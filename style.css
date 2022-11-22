@@ -42,11 +42,9 @@ a {
     color: white;
 }
 
-
-
 .first  {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.013),
-    rgb(0,0,0,0.8)), url('./images/background.jpg');
+    rgba(0,0,0,0.8)), url('./images/background.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -102,6 +100,37 @@ a {
     font-size: 20px;
     padding-left: 10px;
     margin-right: 0px;
+}
+
+.tv {
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    border-top: 2rem;
+    border-color:rgb(48,48,48);
+    border-style: groove;
+}
+
+.tv-image {
+    background-image: linear-gradient(to bottom, black, grey);
+    width: 700px;
+    height: 500px;
+    margin: 100px;
+}
+
+.tv h1 {
+    font-size: 3.5rem;
+}
+
+.tv p {
+    font-size: 2rem;
+    margin-top: 20px;;
+}
+
+.second-text {
+    font-weight: 200;
+    margin-left: 100px;
 }
 
 
