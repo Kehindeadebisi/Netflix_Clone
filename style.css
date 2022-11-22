@@ -1,0 +1,21 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    padding: 1rem;
+}
+
+header .header-wrap{
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+}
