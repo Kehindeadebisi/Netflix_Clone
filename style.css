@@ -9,17 +9,6 @@ img {
     width: 80%;
 }
 
-button{
-    background-color:#DB0510;
-    width: 100px;
-    height: 25px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
 header {
     padding: 1rem 0;
     position: fixed;
@@ -30,8 +19,27 @@ header .header-wrap{
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
+}
+
+button{
+    background-color:#DB0510;
+    color: white;
+    border: none;
+    
+}
+
+.btn{
+    border-radius: 5px;
+    font-size:x-large;
+    width: 100px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .first  {
@@ -54,6 +62,7 @@ header .header-wrap{
 .first .first-text
 {
     font-size: xx-large;
+    margin-top: 200px;
 }
 
 .first .content {
@@ -63,8 +72,35 @@ header .header-wrap{
 }
 
 .form-control {
-    margin-top: 30px;
     font-size: 1.5em;
+    margin-top: 20px;
 }
+
+.input-control{
+    display: flex;
+    height: 80px;
+    margin: 20px;
+}
+
+.btn-start {
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
+}
+
+.arrow{
+    height: 35px;
+    width: 35px;
+    padding-top: 10px;
+}
+
+#email {
+    width: 600px;
+    height: 80px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 0px;
+}
+
 
 /*background-image: linear-gradient(to bottom, black, grey),
