@@ -11,7 +11,7 @@ img {
 
 header {
     padding: 1rem 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
@@ -41,6 +41,8 @@ a {
     text-decoration: none;
     color: white;
 }
+
+
 
 .first  {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.013),
