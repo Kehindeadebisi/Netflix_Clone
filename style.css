@@ -108,6 +108,7 @@ a {
     color: white;
     align-items: center;
     border-top: 2rem;
+    border-bottom: 2rem;;
     border-color:rgb(48,48,48);
     border-style: groove;
 }
@@ -133,5 +134,97 @@ a {
     margin-left: 100px;
 }
 
+.mobile {
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    border-bottom: 2rem;;
+    border-color:rgb(48,48,48);
+    border-style: groove;
+}
+
+.phone-image {
+    background-image: linear-gradient(to bottom, black, grey);
+    width: 700px;
+    height: 500px;
+    margin: 100px;
+}
+
+.mobile h1 {
+    font-size: 3.5rem;
+}
+
+.mobile p {
+    font-size: 2rem;
+    margin-top: 20px;;
+}
+
+.third-text {
+    font-weight: 200;
+    margin-right: 150px;
+}
+
+.combo {
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    border-bottom: 2rem;;
+    border-color:rgb(48,48,48);
+    border-style: groove;
+}
+
+.combo-image {
+    background-image: linear-gradient(to bottom, black, grey);
+    width: 700px;
+    height: 500px;
+    margin: 100px;
+}
+
+.combo h1 {
+    font-size: 3.5rem;
+}
+
+.combo p {
+    font-size: 2rem;
+    margin-top: 20px;;
+}
+
+.fourth-text {
+    font-weight: 200;
+    margin-left: 100px;
+}
+
+.kids {
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    border-bottom: 2rem;;
+    border-color:rgb(48,48,48);
+    border-style: groove;
+}
+
+.kids-image {
+    background-image: linear-gradient(to bottom, black, grey);
+    width: 700px;
+    height: 500px;
+    margin: 100px;
+}
+
+.kids h1 {
+    font-size: 3.5rem;
+}
+
+.kids p {
+    font-size: 2rem;
+    margin-top: 20px;;
+}
+
+.fifth-text {
+    font-weight: 200;
+    margin-right: 150px;
+}
 
 /*background-image: linear-gradient(to bottom, black, grey),
