@@ -26,8 +26,7 @@ header .header-wrap{
 button{
     background-color:#DB0510;
     color: white;
-    border: none;
-    
+    border: none;    
 }
 
 .btn{
@@ -80,18 +79,22 @@ a {
     display: flex;
     height: 80px;
     margin: 20px;
+    justify-content: center;
 }
 
 .btn-start {
     width: 300px;
     height: 80px;
     font-size: 35px;
+    padding-bottom: 60px
 }
 
+
+
 .arrow{
-    height: 35px;
+    height: 45px;
     width: 35px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 #email {
@@ -227,4 +230,38 @@ a {
     margin-right: 150px;
 }
 
-/*background-image: linear-gradient(to bottom, black, grey),
+.faq {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom: 2rem;
+    border-color:rgb(48,48,48);
+    border-style: groove;
+}
+
+.faq h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.faq-btn {
+    width : 1000px;
+    height: 80px;
+    background-color: rgb(48,48,48);
+    font-size: 2rem;
+    padding: 10px;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+.add {
+    float: right;
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+.mail {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
