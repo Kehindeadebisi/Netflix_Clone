@@ -34,11 +34,12 @@ button{
     font-size:x-large;
     width: 100px;
     height: 40px;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 .first  {
@@ -264,4 +265,33 @@ a {
 .mail {
     margin-top: 70px;
     margin-bottom: 70px;
+}
+
+.last {
+    background-color: black;
+    border-bottom: 2rem;;
+    border-color:rgb(48,48,48);
+    border-style: groove;
+    color: rgba(97, 96, 96, 0.904);
+    align-content: center;
+}
+
+.footer {
+    margin: 50px 350px;
+}
+
+.contact {
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.quick-links p {
+    padding: 10px;
 }
